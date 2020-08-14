@@ -13,7 +13,7 @@ def predictor(model, image_path):
     with open('classes.json') as f:
         classes = json.load(f)
 
-    print("True Label:", image_path.replace("../input/new-plant-diseases-dataset/test/test/", ""))
+#     print("True Label:", image_path.replace("../input/new-plant-diseases-dataset/test/test/", ""))
     prediction = model.predict(img)
 
     decoded = prediction.flatten()
