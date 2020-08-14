@@ -4,9 +4,9 @@
 
 ## Data:
 
-Obtained from Kaggle's [New Plant Disease dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset).
-
-The data has been augmented, as seen in the `plant-disease-classifier.ipynb` file.
+* Obtained from Kaggle's [New Plant Disease dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset).
+* Size: 1.33 GB
+* The data has been augmented, as seen in the `plant-disease-classifier.ipynb` file.
 
 ## Methods:
 
