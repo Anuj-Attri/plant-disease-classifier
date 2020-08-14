@@ -1,7 +1,7 @@
 # Plant Disease Classifier
 
-> Training a machine learning model to classify diseases plants.
-> Trained on Kaggle using GPU. 
+* Training a machine learning model to classify diseases plants.
+* Trained on Kaggle using GPU. 
 
 ## Data:
 
