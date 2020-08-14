@@ -10,16 +10,9 @@ The data has been augmented, as seen in the `plant-disease-classifier.ipynb` fil
 
 ## Methods:
 
-The method used is transfer learning on [AlexNet](https://en.wikipedia.org/wiki/AlexNet) and the other on [Inception V3](https://en.wikipedia.org/wiki/Inceptionv3).-
+The method used is transfer learning on [Inception V3](https://en.wikipedia.org/wiki/Inceptionv3).-
 
 `ImageDataAugmentor` was also used to create an augmented dataset for increased training statistics.
-
-## AlexNet:
-> Accuracy on Validation set: `95.064%`
-> Multiclass Cross-Entropy Loss: `0.15`
-> Optimizer: [RMSprop](https://golden.com/wiki/RMSprop)
-
-`AlexNet Model's training has been inspired by the owner of the data himself`
 
 ## InceptionV3:
 > Accuracy on Validation set: ~86%
@@ -27,7 +20,13 @@ The method used is transfer learning on [AlexNet](https://en.wikipedia.org/wiki/
 
 ## The models in the given repository include:
 * `inceptionv3_rmsprop.h5`
-* `AlexNet_model_rmsprop.h5`
+
+You can add your own model in the `Models` folder to be used.
 
 ## How to use the models?
 > Run the `disease-pred.py` file to test the models on custom images.
+
+## Example:
+* The below example was taken during the training:
+
+<img src = "unknown.png">
